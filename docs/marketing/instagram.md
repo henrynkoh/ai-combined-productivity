@@ -2,17 +2,15 @@
 
 ## Post 1 — Carousel hook (slide 1 text on image)
 
-**On-image text:** Obsidian + Graphify + Claude Code = one loop
+**On-image text:** Raw → Wiki · Ingest · Query · Lint
 
 **Caption:**
 
-Seattle founders: what if your notes, your architecture map, and your coding agent all pointed at the same repo?
+Seattle founders: what if your **fragments** became a **real wiki** your AI can **query**—not re-guess from the web?
 
-We’re running a **1-week, hands-on lab** for a small cohort—Next.js on the screen, Obsidian as the control center, Graphify for the graph, Claude Code in the terminal.
+We’re running a **1-week lab** for a small cohort: **Karpathy LLM Wiki** in **Obsidian**, **Ingest/Query/Lint** as habits, **Next.js** as the shared cohort app. Domain knowledge still wins; tools just scale it.
 
-Not theory. Daily outcomes + checklists.
-
-Link in bio. {LINK}
+Daily outcomes + checklists. Link in bio. {LINK}
 
 .
 
@@ -20,7 +18,7 @@ Link in bio. {LINK}
 
 .
 
-#SeattleStartups #NextJS #Obsidian #ClaudeCode #DeveloperProductivity #PNW #StartupLife #BuildInPublic #TechSeattle #AITools
+#SeattleStartups #LLMWiki #Obsidian #NextJS #ClaudeCode #Karpathy #PKM #StartupLife #BuildInPublic #TechSeattle #AI
 
 ---
 
@@ -28,23 +26,23 @@ Link in bio. {LINK}
 
 **On-screen bullets:**
 
-1. Note the “why” in Obsidian  
-2. See the “how” in Graphify  
-3. Ship the code with Claude Code  
+1. Collect chaos in **Raw**  
+2. **Ingest** into **Wiki**  
+3. **Query** with citations · **Lint** often  
 
 **Caption:**
 
-Stop context-switching between three tools that don’t talk. This week we connect them—on a real Next.js project. Greater Seattle · selected teams · {DATE}
+Stop losing context every time you close a chat. This week we **garden** knowledge the Karpathy way—Greater Seattle · selected teams · {DATE}
 
 {LINK}
 
-#Seattle #Startups #NextJS #Obsidian #ClaudeCode #Graphify
+#Seattle #Startups #LLMWiki #Obsidian #NextJS
 
 ---
 
 ## Story sticker text (short)
 
-**Poll:** Vault next to repo? ✅ / Not yet  
-**Quiz:** Which tool maps code dependencies? Graphify / Spreadsheet
+**Poll:** Separate vaults per topic? ✅ / Mix everything  
+**Quiz:** Which command maintains structure? Lint / Ingest
 
 **Link sticker CTA:** `{LINK}`

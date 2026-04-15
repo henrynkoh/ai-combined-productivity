@@ -15,17 +15,24 @@ function GitHubIcon({ className }: { className?: string }) {
   );
 }
 
+/** Fixed bottom-right link to the GitHub repository (always visible, high z-index). */
 export function GitHubFAB() {
   return (
     <a
       href={githubRepoUrl}
       target="_blank"
       rel="noopener noreferrer"
-      title="View on GitHub"
-      className="group fixed bottom-6 right-6 z-[100] flex h-14 w-14 items-center justify-center rounded-2xl border border-white/20 bg-zinc-900 text-white shadow-[0_8px_32px_rgba(0,0,0,0.35)] ring-1 ring-white/10 transition hover:scale-105 hover:bg-zinc-800 hover:shadow-[0_12px_40px_rgba(16,185,129,0.35)] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-500 dark:border-zinc-700 dark:bg-zinc-950 dark:hover:ring-emerald-500/30"
+      title="Open source repository on GitHub"
+      className="group fixed bottom-5 right-5 z-[100] flex items-center gap-2 rounded-2xl border border-white/25 bg-gradient-to-br from-zinc-900 via-zinc-900 to-emerald-950/80 px-4 py-3 text-white shadow-[0_12px_40px_rgba(0,0,0,0.45)] ring-2 ring-emerald-500/30 transition hover:-translate-y-0.5 hover:shadow-[0_16px_48px_rgba(16,185,129,0.35)] hover:ring-emerald-400/50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-400 sm:bottom-6 sm:right-6"
     >
-      <GitHubIcon className="h-7 w-7 transition group-hover:text-emerald-400" />
-      <span className="sr-only">Open repository on GitHub</span>
+      <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 ring-1 ring-white/10 transition group-hover:bg-emerald-500/20">
+        <GitHubIcon className="h-6 w-6" />
+      </span>
+      <span className="hidden min-w-[4.5rem] flex-col text-left text-xs leading-tight sm:flex">
+        <span className="font-semibold tracking-wide">GitHub</span>
+        <span className="text-[10px] font-medium text-emerald-300/90">View repository</span>
+      </span>
+      <span className="sr-only sm:hidden">Open repository on GitHub</span>
     </a>
   );
 }

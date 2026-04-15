@@ -2,22 +2,22 @@
 
 ## Single post
 
-Seattle startup folks: 1 week, small cohort, real Next.js work. Obsidian for intent, Graphify for structure, Claude Code for execution. If your team lives in notes + code but they’re not connected—this is the bridge. {LINK}
+Seattle startups: 1 week · small cohort · **LLM Wiki** for real. Raw→Wiki, Ingest/Query/Lint in Obsidian, Next.js hub in the repo. If your notes and your product aren’t in the same loop—this is the habit stack. {LINK}
 
 ---
 
 ## Thread (copy each block as a new post)
 
-1/ We’re tired of “AI workshops” that never touch the repo. So we built a week where your **Obsidian vault** is literally next to your **Next.js** app.
+1/ Tired of AI that **ignores** what you already captured? Karpathy’s **LLM Wiki** isn’t an app—it’s **Raw**, **Wiki**, **Schema** + **Ingest · Query · Lint**.
 
-2/ **Graphify** shows where your codebase is dense. Your notes explain *why* that density exists. That’s how you prioritize—not vibes.
+2/ We run it in **Obsidian** (vault + Terminal), skills for the three commands, and a **Next.js** site so the cohort shares one map of the week.
 
-3/ **Claude Code** does the edits in the terminal with reviewable diffs. The facilitator’s job is to keep scope honest for a startup week.
+3/ **Query** only trusts **Wiki**. That’s why we split **unrelated domains** into separate vaults—otherwise answers get muddy.
 
-4/ Greater Seattle · selected startups · one week. If that’s you: {LINK}
+4/ Greater Seattle · selected startups · one week. **{LINK}**
 
 ---
 
 ## Reply-bait (first comment from organizer)
 
-“What’s the hardest part: Obsidian setup, Graphify, or Claude Code auth?” — we’ll share the day-1 checklist.
+“What’s harder: first **Ingest** or remembering to **Lint**?” — we’ll drop the day-3 checklist.

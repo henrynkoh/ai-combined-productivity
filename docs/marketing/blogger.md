@@ -1,35 +1,35 @@
 # Blogger — Post template (HTML-friendly)
 
 **Title:**  
-`How Seattle Startups Can Ship Next.js Faster: Obsidian, Graphify, and Claude Code in One Week`
+`How Seattle Startups Can Build a Real LLM Wiki (Karpathy Model) in One Week`
 
 ## Opening (HTML)
 
 ```html
-<p><strong>TL;DR:</strong> We’re running a one-week, hands-on lab for a small group of Greater Seattle startups. You’ll connect <strong>Obsidian</strong> (documentation and decisions), <strong>Graphify</strong> (codebase knowledge graph), and <strong>Claude Code</strong> (terminal-based AI coding) around a real <strong>Next.js</strong> project—not slides.</p>
+<p><strong>TL;DR:</strong> A one-week, hands-on lab for <strong>Greater Seattle</strong> startups. We implement <strong>Andrej Karpathy’s LLM Wiki</strong>: <strong>Raw / Wiki / Schema</strong> and <strong>Ingest · Query · Lint</strong> in <strong>Obsidian</strong>, with a <strong>Next.js</strong> cohort site—not slides. Optional weekend: codebase graph (Graphify) and MCP guardrails.</p>
 ```
 
 ## Section headings (suggested)
 
-1. Why three tools fail without a loop  
-2. What you’ll actually do each day  
-3. Who this is for (and who it isn’t)  
-4. How to prepare your machine  
-5. How to apply  
+1. Why “chat with the internet” is not enough  
+2. Raw vs Wiki vs Schema (and why Query reads Wiki only)  
+3. What you’ll do each day  
+4. Who this is for  
+5. How to prepare · how to apply  
 
 ## Body copy (plain text)
 
-**Why three tools fail without a loop**
+**Why LLM Wiki**
 
-Most teams already use a notes app, some AI in the IDE, and maybe a diagram. The problem is handover: the note doesn’t link to the route, the graph doesn’t refresh after the merge, and the agent doesn’t know your non-negotiables. This curriculum fixes that by putting the **vault at the repo root**, re-running **Graphify** at meaningful milestones, and grounding **Claude Code** with `CLAUDE.md` / `AGENTS.md`.
+Agents forget context across sessions. LLM Wiki is a **discipline**: capture fragments in **Raw**, **Ingest** into linked **Wiki** pages, **Query** with citations from Wiki, **Lint** on a cadence so structure does not rot. **Schema** holds the rules so the agent does not improvise your ontology.
 
 **What you’ll actually do**
 
-You’ll follow a published day-by-day plan: foundations, context files, graphing the codebase, MCP boundaries, and a sane Obsidian plugin rollout—then optional hardening and demo rehearsal.
+Follow the published week: vault + Terminal plugin → scaffold from Karpathy’s gist → skill-ify the three commands → real Raw + Ingest → Graph + Query + Lint → optional code graph + MCP → ship a small product change informed by Wiki.
 
 **Who this is for**
 
-Technical founders, senior engineers, and technical PMs who can review PRs. Not for teams who want a passive webinar.
+Founders and builders who can **review diffs** and **judge domain quality**. Not a passive webinar.
 
 **Apply**
 
@@ -37,10 +37,10 @@ Technical founders, senior engineers, and technical PMs who can review PRs. Not 
 
 ## Labels / tags (Blogger)
 
-`Next.js`, `Obsidian`, `Claude Code`, `Graphify`, `Seattle`, `startups`, `AI`, `developer tools`
+`LLM Wiki`, `Karpathy`, `Obsidian`, `Next.js`, `Seattle`, `startups`, `Claude Code`, `PKM`, `AI`
 
 ## Closing CTA
 
 ```html
-<p><a href="{REGISTRATION_LINK}">Request a seat for the cohort</a> — limited spots for {DATE}.</p>
+<p><a href="{REGISTRATION_LINK}">Request a seat</a> — limited spots · {DATE}.</p>
 ```

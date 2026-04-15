@@ -2,13 +2,13 @@
 
 ## Subject line options
 
-1. `Seattle founders: 1 week to connect Obsidian, Graphify & Claude Code → Next.js`  
-2. `Your notes and your repo shouldn’t be strangers (cohort invite)`  
-3. `Hands-on lab: Next.js + Obsidian + Graphify + Claude Code (Greater Seattle)`  
+1. `Seattle founders: 1 week to run Karpathy’s LLM Wiki (Obsidian + Next.js)`  
+2. `Raw → Wiki → Query: a real habit, not another AI tip`  
+3. `Selected startups — LLM Wiki lab (Greater Seattle)`  
 
 ## Preheader (preview text)
 
-Small cohort. Daily checklists. Real PRs—not another slide deck.
+Ingest · Query · Lint. Small cohort. Daily checklists—not a slide deck.
 
 ---
 
@@ -16,30 +16,34 @@ Small cohort. Daily checklists. Real PRs—not another slide deck.
 
 **Hi {NAME},**
 
-If your team is already using **Obsidian** for thinking and **Next.js** for shipping, but the two rarely meet in the same folder, this is the week we fix that.
+If **chat context** keeps evaporating while your **real research** lives in scraps, **Andrej Karpathy’s LLM Wiki** model is worth a serious week.
 
-**Seattle Agentic Next.js Lab** is a **one-week, hands-on** program for a **small group of startups** in the **Greater Seattle** area. We treat **Obsidian** as the control center, use **Graphify** to see how your codebase connects, and **Claude Code** to execute changes in the terminal—with reviewable diffs and clear guardrails.
+**Seattle LLM Wiki lab** is a **hands-on, seven-day** program (Mon–Fri core) for a **small group of startups** in the **Greater Seattle** area. You will:
+
+- Structure captures as **Raw**, curated pages as **Wiki**, and rules as **Schema**  
+- Run **Ingest**, **Query** (Wiki-only answers), and **Lint** on a real cadence—in **Obsidian**  
+- Use a shared **Next.js** app for the schedule and **100-link** resource library  
+- Optionally connect **Graphify** (code graph) and **MCP** in the weekend blocks  
+
+**Primary references:** [Karpathy gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md) · [Walkthrough video](https://www.youtube.com/watch?v=S6w4g2OQlVQ)
 
 **What you’ll walk away with**
 
-- A repeatable loop: note → graph → implement → merge  
-- A sane **Obsidian plugin** rollout (no “install 100 plugins” crash)  
-- A **resource library** you can filter by topic—Claude Code, MCP, Obsidian, Graphify, Next.js  
+- Repeatable **Ingest / Query / Lint** habits (optionally as skills)  
+- Clearer **vault boundaries** so Query stays sharp  
+- One **shipped** or documented improvement to your product informed by Wiki truth  
 
-**Important:** This is for builders who can read diffs and run a dev server. If that’s you—or your tech lead—**{CTA}**  
+**{CTA}** → **{REGISTRATION_LINK}**
 
-**{REGISTRATION_LINK}**
+Prep steps (Node, vault, agent auth) go out after confirmation.
 
-We’ll send prep steps (Node, Git, vault layout) after you’re confirmed.
-
-See you there,  
 **{SIGNATURE}**
 
 ---
 
 ## P.S.
 
-Questions? Reply to this email or write to **{EMAIL}**.
+Reply with questions or forward to a technical cofounder who lives in **Obsidian** and the **repo**.
 
 ---
 

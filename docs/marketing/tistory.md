@@ -2,38 +2,36 @@
 
 ## 포스트 제목
 
-**[시애틀 스타트업] Next.js + Obsidian + Graphify + Claude Code 1주 실전 랩**
+**[시애틀 스타트업] Karpathy LLM Wiki 1주 실전 — Obsidian + Next.js 코호트**
 
 ## 요약 (티스토리 요약란)
 
-Greater Seattle 지역 선별 스타트업 대상, 1주일 집중 실습. 슬라이드가 아니라 **실제 Next.js 저장소**에서 Obsidian·Graphify·Claude Code를 연결하는 워크플로를 함께 만듭니다.
+Greater Seattle **선별** 스타트업 대상 **1주** 집중 실습. 슬라이드가 아니라 **LLM Wiki**(Raw/Wiki/Schema, Ingest/Query/Lint)를 **Obsidian**에서 돌리고, **Next.js**로 일정·자료를 공유합니다. 원문·영상: gist + YouTube 링크는 신청 페이지에서 안내.
 
 ## 본문
 
-### 왜 “노트 + 그래프 + 에이전트”인가
+### 왜 LLM Wiki인가
 
-많은 팀이 문서는 Notion이나 Obsidian에, 코드는 GitHub에, AI는 IDE에만 둡니다. 그러면 **왜 이렇게 짰는지**와 **어디가 위험한지**가 끊깁니다. 이 랩은 저장소와 볼트를 가깝게 두고, Graphify로 구조를 보고, Claude Code로 변경을 **작은 단위 PR**로 쌓는 흐름을 연습합니다.
+도구만 쌓으면 **컨텍스트**는 여전히 날아갑니다. Karpathy가 말하는 **정원사**처럼, **Raw**에 모은 뒤 **Ingest**로 **Wiki**를 만들고, **Query**는 **Wiki** 안에서만 답하게 하며, **Lint**로 계속 손봅니다. **도메인 지식**이 없으면 도구만으로는 부족합니다—이번 주는 둘 다 다룹니다.
 
-### 일정 안내
+### 일정·형식
 
-- **기간**: 1주 (월–금 핵심, 주말은 선택 과제·리허설)  
-- **대상**: 시애틀 권역 소규모 스타트업 팀 (선별)  
-- **준비물**: Node LTS, Git, Obsidian 설치 가능 여부, Claude Code 설치 가이드는 사전 안내  
+- **기간**: 1주 (월–금 핵심, 주말 선택)  
+- **대상**: 시애틀 권역 소규모 팀 (선별)  
+- **준비물**: Node LTS, Git, Obsidian, Claude Code(또는 Cursor) 안내  
 
-### 신청 방법
+### 신청
 
-아래 링크에서 신청·문의: `{REGISTRATION_LINK}`  
-진행일: `{DATE}`  
-담당: `{EMAIL}`
+`{REGISTRATION_LINK}` · 진행일 `{DATE}` · `{EMAIL}`
 
 ### 댓글 유도 (선택)
 
-“Graphify 돌려본 적 있나요?” “Obsidian 볼트를 레포 루트로 쓰는 건 처음인가요?” 댓글로 남겨 주시면 사전 준비 자료를 맞춰 드립니다.
+“**Ingest**와 **Lint** 중 어떤 걸 더 자주 하게 될 것 같나요?” 댓글로 남겨 주시면 사전 자료에 반영합니다.
 
 ## 태그
 
-`시애틀`, `스타트업`, `NextJS`, `Obsidian`, `Graphify`, `ClaudeCode`, `개발`, `워크숍`, `AI`
+`LLMWiki`, `Karpathy`, `시애틀`, `스타트업`, `Obsidian`, `NextJS`, `워크숍`, `AI`, `PKM`
 
 ## 공개 범위
 
-전체 공개 또는 팀원에게만 공유 — 티스토리 설정에 맞게 선택하세요.
+전체 공개 또는 부분 공개 — 티스토리 설정에 맞게 선택.

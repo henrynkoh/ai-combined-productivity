@@ -2,35 +2,35 @@
 
 ## Primary text (Feed post)
 
-**Headline idea:** Build your Next.js app with notes, graphs, and an AI agent—not three disconnected tools.
+**Headline idea:** Your AI shouldn’t “forget” what you already learned—turn fragments into a real wiki.
 
-Greater Seattle founders: one intensive week. You’ll wire **Obsidian** (your control center), **Graphify** (how your codebase actually connects), and **Claude Code** (execution in the terminal) into a single loop—and ship a real Next.js slice your team can demo.
+Greater Seattle founders: **one intensive week** for a **small, selected group**. We follow **Andrej Karpathy’s LLM Wiki** idea: dump messy signal into **Raw**, let an agent curate **Wiki**, write rules in **Schema**, then run **Ingest · Query · Lint** in **Obsidian**—with a **Next.js** hub repo for the cohort. Tools matter less than **your domain judgment**; we practice both.
 
-✓ Day-by-day outcomes, not vague inspiration  
-✓ 100 curated links you can filter by topic  
-✓ Obsidian plugin strategy that won’t melt your laptop  
+✓ Day-by-day steps tied to [Karpathy’s gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md)  
+✓ Terminal + vault workflow (see [reference video](https://www.youtube.com/watch?v=S6w4g2OQlVQ))  
+✓ 100 curated links in the cohort app · optional weekend: code graph + MCP  
 
 {CTA}: {REGISTRATION_LINK}
 
-Seats limited for selected startups. {DATE}
+Seats limited. {DATE}
 
 ---
 
 ## Short primary text (A/B test)
 
-Ship faster without losing the plot. Week-long lab: Obsidian + Graphify + Claude Code → Next.js. Greater Seattle. {REGISTRATION_LINK}
+LLM Wiki in one week: Raw→Wiki, Ingest/Query/Lint, Obsidian + Next.js. Greater Seattle · selected startups. {REGISTRATION_LINK}
 
 ---
 
-## Ad — long copy (if using Meta Ads Manager)
+## Ad — long copy (Meta Ads Manager)
 
-**Campaign angle:** Productivity / Developer education / Startup program
+**Campaign angle:** AI knowledge management / Developer education / Startup program
 
 **Body:**
 
-Your “second brain” should drive execution—not sit in a folder. In this cohort, your Obsidian vault sits next to your Next.js repo, Graphify shows where complexity clusters, and Claude Code turns specs into reviewed diffs.
+Most “second brains” never become **queryable**. LLM Wiki fixes that: **Ingest** promotes Raw into linked Wiki notes; **Query** answers from Wiki only; **Lint** keeps the garden healthy. We implement it in **Obsidian**, with **Claude Code** on a real **Next.js** curriculum site—not slides.
 
-Designed for a **small group of startups** in the Greater Seattle area over **one week**. You leave with a working workflow, not another slide deck.
+Designed for **small teams** in the **Greater Seattle** area over **one week**. You leave with habits, not hype.
 
 Learn more: {LINK}
 
@@ -44,6 +44,6 @@ Learn more: {LINK}
 
 ## Image / creative prompts (for designers)
 
-- Split screen: Obsidian graph + Next.js file tree + terminal with Claude Code  
-- Map pin: Seattle + calendar “1 week”  
-- Minimal: three pillars labeled Obsidian · Graphify · Claude Code
+- Split: Obsidian graph + Raw/Wiki folders + terminal with agent  
+- “Gardener” metaphor: messy notes → trimmed wiki  
+- Seattle pin + “1 week” + three words: **Ingest · Query · Lint**

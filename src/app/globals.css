@@ -19,10 +19,43 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Scrollable landing sidebar — thin modern scrollbar */
+.landing-nav-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(16 185 129 / 0.45) transparent;
+}
+
+.landing-nav-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.landing-nav-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.landing-nav-scroll::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgb(16 185 129 / 0.45), rgb(6 182 212 / 0.35));
+}
+
+.landing-nav-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgb(16 185 129 / 0.7), rgb(6 182 212 / 0.55));
 }
 
 /* Subtle grid for landing hero background */
