@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Seattle LLM Wiki lab (Next.js)
 
-## Getting Started
+Next.js cohort site for a one-week, hands-on program (Greater Seattle startups) built around **Andrej Karpathy’s LLM Wiki** model: **Raw → Wiki → Query** with **Ingest / Query / Lint**, implemented in Obsidian per the [walkthrough video](https://www.youtube.com/watch?v=S6w4g2OQlVQ) and the [llm-wiki.md gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f#file-llm-wiki-md). This repo is the shared app and agent context; founders’ vaults hold the knowledge loop.
 
-First, run the development server:
+Optional weekend blocks still reference **Graphify** on the codebase and **MCP** for Claude Code—see `src/data/week.ts`.
+
+## Documentation
+
+| Doc | Description |
+| --- | --- |
+| [**Quickstart**](docs/QUICKSTART.md) | Fast setup and first URLs (~5 min) |
+| [**Tutorial**](docs/TUTORIAL.md) | First-hour walkthrough (vault + Claude Code + Graphify touchpoint) |
+| [**Manual**](docs/MANUAL.md) | Full operator reference: layout, commands, content updates, cohort rhythm |
+| [**Docs index**](docs/README.md) | Navigation hub for all documentation |
+
+## Marketing copy (channel-specific ads)
+
+Ready-to-adapt text for campaigns lives in [**docs/marketing/**](docs/marketing/):
+
+| Channel | File |
+| --- | --- |
+| Facebook | [facebook.md](docs/marketing/facebook.md) |
+| Instagram | [instagram.md](docs/marketing/instagram.md) |
+| Threads | [threads.md](docs/marketing/threads.md) |
+| Blogger | [blogger.md](docs/marketing/blogger.md) |
+| WordPress | [wordpress.md](docs/marketing/wordpress.md) |
+| 네이버 블로그 | [naver-blog.md](docs/marketing/naver-blog.md) |
+| 티스토리 | [tistory.md](docs/marketing/tistory.md) |
+| Newsletter | [newsletter.md](docs/marketing/newsletter.md) |
+| Email | [email.md](docs/marketing/email.md) |
+
+Replace placeholders such as `{REGISTRATION_LINK}`, `{DATE}`, `{EMAIL}` before publishing. See [docs/marketing/README.md](docs/marketing/README.md) for a short disclaimer.
+
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The **home page** is a single scrollable landing with a **left sidebar** (desktop) for section navigation, **scroll-spy** highlighting, a **mobile section jumper**, and a **floating GitHub button** (bottom-right). Copy `.env.example` to `.env.local` and set `NEXT_PUBLIC_GITHUB_REPO_URL` to your repository URL so doc links and the FAB point at the right GitHub project.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key paths in the repo
 
-## Learn More
+| Path | Purpose |
+| --- | --- |
+| `src/data/week.ts` | Day-by-day outcomes, steps, and checklists |
+| `src/data/resources.ts` | 100 curated links (regenerate via `node scripts/generate-resources.mjs`) |
+| `scripts/generate-resources.mjs` | Source list for the resource library |
+| `obsidian/` | Plugin profile template + `community-plugins.json` scaffold |
+| `CLAUDE.md` / `AGENTS.md` | Agent context for Claude Code |
 
-To learn more about Next.js, take a look at the following resources:
+## Build
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Lint
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run lint
+```
