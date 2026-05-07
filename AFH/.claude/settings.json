@@ -1,0 +1,42 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "command": "bash /home/user/ai-combined-productivity/AFH/scripts/session-init.sh",
+        "description": "Initialize session: check data dirs, rotate logs, print today's targets"
+      },
+      {
+        "command": "node /home/user/ai-combined-productivity/AFH/scripts/check-leads.js --summary",
+        "description": "Show lead count and top scores from last run before session begins"
+      }
+    ],
+    "Stop": [
+      {
+        "command": "node /home/user/ai-combined-productivity/AFH/scripts/generate-report.js --daily",
+        "description": "Generate daily digest on session close"
+      }
+    ]
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem",
+               "/home/user/ai-combined-productivity/AFH/data"],
+      "description": "Read/write AFH data directory"
+    },
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": { "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}" }
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(python3:*)",
+      "Bash(cat:*)",
+      "Bash(jq:*)",
+      "Bash(grep:*)"
+    ]
+  }
+}

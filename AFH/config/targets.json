@@ -1,0 +1,65 @@
+{
+  "facebook_groups": {
+    "session_01_king_snohomish": [
+      { "name": "Adult Family Home Providers - Washington State", "county": "King", "priority": 10 },
+      { "name": "AFH Washington - Owners & Operators", "county": "King", "priority": 10 },
+      { "name": "Seattle Area Adult Family Homes", "county": "King", "priority": 9 },
+      { "name": "Eastside AFH Network (Bellevue/Redmond/Kirkland)", "county": "King", "priority": 9 },
+      { "name": "Snohomish County AFH Providers", "county": "Snohomish", "priority": 9 },
+      { "name": "Everett & Lynnwood Senior Care Homes", "county": "Snohomish", "priority": 8 },
+      { "name": "Washington State Caregiver Network", "county": "King", "priority": 8 },
+      { "name": "DSHS AFH Licensing Help - WA", "county": "Statewide", "priority": 8 },
+      { "name": "King County Senior Care Marketplace", "county": "King", "priority": 7 },
+      { "name": "AFH Buy Sell Trade WA", "county": "King", "priority": 10 }
+    ],
+    "session_02_pierce_thurston_clark": [
+      { "name": "Tacoma AFH & Senior Living", "county": "Pierce", "priority": 9 },
+      { "name": "Pierce County Adult Family Home Network", "county": "Pierce", "priority": 9 },
+      { "name": "South Sound Senior Care Providers", "county": "Thurston", "priority": 8 },
+      { "name": "Olympia Area AFH Operators", "county": "Thurston", "priority": 8 },
+      { "name": "Clark County Adult Family Homes", "county": "Clark", "priority": 8 },
+      { "name": "Vancouver WA Senior Housing & AFH", "county": "Clark", "priority": 7 },
+      { "name": "Kitsap Peninsula AFH Network", "county": "Kitsap", "priority": 7 },
+      { "name": "Spokane Valley Adult Family Homes", "county": "Spokane", "priority": 7 },
+      { "name": "Eastern WA AFH Providers", "county": "Spokane", "priority": 6 },
+      { "name": "Washington State Home Care Business Owners", "county": "Statewide", "priority": 8 }
+    ]
+  },
+  "search_keywords": {
+    "session_03_provider_terms": [
+      "adult family home provider",
+      "AFH provider",
+      "looking for AFH provider",
+      "need AFH placement",
+      "DSHS waiver placement",
+      "adult family home caregiver needed",
+      "want to be AFH provider",
+      "start adult family home",
+      "open my own AFH",
+      "become AFH operator"
+    ],
+    "session_04_property_license_terms": [
+      "AFH license for sale",
+      "adult family home for sale",
+      "AFH license transfer",
+      "WABO certified",
+      "WABO license",
+      "licensed AFH property",
+      "AFH business for sale",
+      "adult family home lease",
+      "AFH license lapsed",
+      "6 bedroom rambler AFH",
+      "accessible home AFH potential",
+      "group home for sale Washington"
+    ]
+  },
+  "counties_priority_order": [
+    "King", "Snohomish", "Pierce", "Thurston", "Clark", "Kitsap", "Spokane",
+    "Whatcom", "Skagit", "Yakima", "Benton"
+  ],
+  "property_signals": {
+    "strong": ["AFH license", "WABO", "licensed", "6 residents", "ADA", "accessible", "roll-in shower", "wide doorways"],
+    "moderate": ["6 bedroom", "rambler", "single story", "large lot", "zoned R1", "in-law suite", "separate entrance"],
+    "weak": ["4+ bedroom", "2500 sqft", "near hospital", "quiet neighborhood"]
+  }
+}
