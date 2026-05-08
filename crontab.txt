@@ -1,0 +1,17 @@
+# ─── AFH Project Suite — Crontab ─────────────────────────────────────────────
+# Install with: crontab crontab.txt
+# Verify with:  crontab -l
+
+# AFHP Property Scout — every hour, 24/7/365
+0 * * * * node AFHP/src/orchestrator.js >> AFHP/data/logs/cron.log 2>&1
+
+# AFH Intel (Providers & Leads) — every 2 hours
+0 */2 * * * cd /home/user/ai-combined-productivity && node AFH/src/orchestrator.js >> AFH/data/logs/cron.log 2>&1
+
+# Daily summary rollup — 11:59pm every day
+59 23 * * * cd /home/user/ai-combined-productivity && node AFHP/scripts/daily-summary.js >> AFHP/data/logs/cron.log 2>&1
+59 23 * * * cd /home/user/ai-combined-productivity && node AFH/scripts/generate-report.js --daily >> AFH/data/logs/cron.log 2>&1
+
+# Weekly log rotation — Sunday 12:01am
+1 0 * * 0 find /home/user/ai-combined-productivity/AFHP/data/raw -name "*.json" -mtime +7 -delete 2>/dev/null
+1 0 * * 0 find /home/user/ai-combined-productivity/AFH/data/raw  -name "*.json" -mtime +7 -delete 2>/dev/null

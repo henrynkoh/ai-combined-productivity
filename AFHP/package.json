@@ -1,0 +1,13 @@
+{
+  "name": "afhp-property-scout",
+  "version": "1.0.0",
+  "description": "AFH property scout: 24/7 hourly table of qualifying WA state properties",
+  "main": "src/orchestrator.js",
+  "scripts": {
+    "start":  "node src/orchestrator.js",
+    "table":  "node scripts/show-table.js --latest",
+    "status": "node scripts/list-targets.js",
+    "daily":  "node scripts/daily-summary.js"
+  },
+  "engines": { "node": ">=18" }
+}

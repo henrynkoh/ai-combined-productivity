@@ -1,0 +1,13 @@
+{
+  "name": "afh-intel",
+  "version": "1.0.0",
+  "description": "AFH community intelligence: providers, placements, and opportunities",
+  "main": "src/orchestrator.js",
+  "scripts": {
+    "start":  "node src/orchestrator.js",
+    "status": "node scripts/check-leads.js --summary",
+    "report": "node scripts/generate-report.js --daily",
+    "table":  "node scripts/check-leads.js"
+  },
+  "engines": { "node": ">=18" }
+}

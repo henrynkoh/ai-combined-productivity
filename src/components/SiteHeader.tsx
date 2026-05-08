@@ -6,6 +6,7 @@ const nav = [
   { href: "/week", label: "Week plan" },
   { href: "/resources", label: "100 resources" },
   { href: "/obsidian-stack", label: "Obsidian stack" },
+  { href: "/afh-status", label: "🏠 AFH Status" },
 ];
 
 export function SiteHeader() {
