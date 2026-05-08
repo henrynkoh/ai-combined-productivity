@@ -1,0 +1,38 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "command": "bash /home/user/ai-combined-productivity/AFHP/scripts/session-init.sh",
+        "description": "Init dirs, show property counts, print today's targets"
+      },
+      {
+        "command": "node /home/user/ai-combined-productivity/AFHP/scripts/show-table.js --latest",
+        "description": "Print the most recent hourly table on session open"
+      }
+    ],
+    "Stop": [
+      {
+        "command": "node /home/user/ai-combined-productivity/AFHP/scripts/daily-summary.js",
+        "description": "Roll up all hourly tables into today's daily report on session close"
+      }
+    ]
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem",
+               "/home/user/ai-combined-productivity/AFHP/data"],
+      "description": "Read/write AFHP data directory"
+    }
+  },
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(bash:*)",
+      "Bash(cat:*)",
+      "Bash(jq:*)",
+      "Bash(find:*)",
+      "Bash(mkdir:*)"
+    ]
+  }
+}

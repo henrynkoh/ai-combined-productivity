@@ -1,0 +1,88 @@
+{
+  "facebook_groups": {
+    "session_01_alpha": [
+      { "name": "Adult Family Home Providers - Washington State", "county": "Statewide", "priority": 10 },
+      { "name": "AFH Washington - Owners & Operators", "county": "Statewide", "priority": 10 },
+      { "name": "AFH Buy Sell Trade WA", "county": "Statewide", "priority": 10 },
+      { "name": "Seattle Area Adult Family Homes", "county": "King", "priority": 9 },
+      { "name": "Eastside AFH Network (Bellevue/Redmond/Kirkland)", "county": "King", "priority": 9 },
+      { "name": "King County Senior Care Marketplace", "county": "King", "priority": 9 },
+      { "name": "Snohomish County AFH Providers", "county": "Snohomish", "priority": 9 },
+      { "name": "DSHS AFH Licensing Help - WA", "county": "Statewide", "priority": 8 },
+      { "name": "Washington State Caregiver Network", "county": "Statewide", "priority": 8 },
+      { "name": "AFH Investors & Buyers Washington", "county": "Statewide", "priority": 9 }
+    ],
+    "session_02_beta": [
+      { "name": "Tacoma AFH & Senior Living", "county": "Pierce", "priority": 8 },
+      { "name": "Pierce County Adult Family Home Network", "county": "Pierce", "priority": 8 },
+      { "name": "South Sound Senior Care Providers", "county": "Thurston", "priority": 7 },
+      { "name": "Clark County Adult Family Homes", "county": "Clark", "priority": 7 },
+      { "name": "Vancouver WA Senior Housing & AFH", "county": "Clark", "priority": 7 },
+      { "name": "Kitsap Peninsula AFH Network", "county": "Kitsap", "priority": 7 },
+      { "name": "Spokane Valley Adult Family Homes", "county": "Spokane", "priority": 6 },
+      { "name": "Washington State Home Care Business Owners", "county": "Statewide", "priority": 8 },
+      { "name": "Senior Housing Washington State", "county": "Statewide", "priority": 7 },
+      { "name": "WA State Residential Care Network", "county": "Statewide", "priority": 7 }
+    ],
+    "session_03_real_estate": [
+      { "name": "Seattle Real Estate - Homes For Sale", "county": "King", "priority": 8 },
+      { "name": "Eastside WA Real Estate Deals", "county": "King", "priority": 8 },
+      { "name": "South King County Real Estate", "county": "King", "priority": 8 },
+      { "name": "Snohomish County Real Estate", "county": "Snohomish", "priority": 8 },
+      { "name": "Pierce County Homes For Sale", "county": "Pierce", "priority": 7 },
+      { "name": "Tacoma Real Estate Group", "county": "Pierce", "priority": 7 },
+      { "name": "Clark County Washington Real Estate", "county": "Clark", "priority": 7 },
+      { "name": "Washington State FSBO (For Sale By Owner)", "county": "Statewide", "priority": 8 },
+      { "name": "Washington State Investment Properties", "county": "Statewide", "priority": 8 },
+      { "name": "Whatcom & Skagit County Real Estate", "county": "Whatcom", "priority": 6 }
+    ]
+  },
+  "marketplace_searches": [
+    { "term": "rambler 3 bedroom Washington",       "priority": 10 },
+    { "term": "single story home 3 bedroom WA",     "priority": 10 },
+    { "term": "rambler for sale under 600000 WA",   "priority": 10 },
+    { "term": "AFH home for sale Washington",       "priority": 10 },
+    { "term": "adult family home property sale",    "priority": 10 },
+    { "term": "licensed AFH for sale Washington",   "priority": 10 },
+    { "term": "rambler basement 3 bed Washington",  "priority": 9  },
+    { "term": "single story 4 bedroom Washington",  "priority": 9  },
+    { "term": "accessible home for sale WA",        "priority": 9  },
+    { "term": "group home for sale Washington",     "priority": 9  }
+  ],
+  "keyword_searches": [
+    "AFH home for sale",
+    "AFH license for sale Washington",
+    "adult family home property",
+    "single story 3 bed 2 bath rambler WA",
+    "rambler home Washington state",
+    "WABO property for sale",
+    "accessible single story home Washington",
+    "rambler 2000 sqft Washington",
+    "AFH inspection ready property",
+    "caregiver home for sale Washington",
+    "senior care property Washington",
+    "licensed residential care property WA"
+  ],
+  "afh_hard_requirements": {
+    "min_beds": 3,
+    "min_baths": 2,
+    "min_sqft": 2000,
+    "max_price": 600000,
+    "preferred_styles": ["rambler", "rambler-basement", "rambler-bonus"],
+    "state": "WA",
+    "property_type": "single-family"
+  },
+  "target_counties_priority": [
+    { "county": "King",       "priority": 10 },
+    { "county": "Snohomish",  "priority": 9  },
+    { "county": "Pierce",     "priority": 8  },
+    { "county": "Thurston",   "priority": 7  },
+    { "county": "Clark",      "priority": 7  },
+    { "county": "Kitsap",     "priority": 6  },
+    { "county": "Spokane",    "priority": 6  },
+    { "county": "Whatcom",    "priority": 5  },
+    { "county": "Skagit",     "priority": 5  },
+    { "county": "Yakima",     "priority": 4  },
+    { "county": "Benton",     "priority": 4  }
+  ]
+}
